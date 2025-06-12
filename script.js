@@ -11,8 +11,8 @@ const carrousel = document.getElementById("carrouselImg")
 
 function songButton() {
     if (play == false) {
-        Song.play();
         buttonImg.src = "WPause.png";
+        Song.play();
         play = true;
     } else if (play == true) {
          Song.pause();
