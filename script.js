@@ -15,7 +15,7 @@ function songButton() {
         Song.play();
         play = true;
     } else if (play == true) {
-         Song.pause();
+        Song.pause();
         buttonImg.src = "PlayButton.png";
         play = false;
     }
@@ -123,4 +123,5 @@ setInterval(criarElemento, 500);
 setInterval(atualizarTempo, 1000);
 
 //let play = false //Trocar para false para tocar ao inicio da página
+buttonImg.src = "PlayButton.png";
 carrouselUpdate();
