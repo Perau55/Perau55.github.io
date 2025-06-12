@@ -123,5 +123,4 @@ setInterval(criarElemento, 500);
 setInterval(atualizarTempo, 1000);
 
 //let play = false //Trocar para false para tocar ao inicio da página
-songButton();
 carrouselUpdate();
