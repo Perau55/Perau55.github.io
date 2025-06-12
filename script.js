@@ -2,7 +2,7 @@ let Song = new Audio("Aliança.mp3");
 const carrouselSrcArray = ["Img1.jpeg", "Img2.jpeg", "Img3.jpeg", "Img4.jpeg", "Img5.jpeg", "Img6.jpeg", "Img7.jpeg", "Img8.jpeg", "Img9.jpeg", "Img10.jpeg", "Img11.jpeg", "Img12.jpeg"];
 let carrouselImg = 0;
 let carrouselInterval = setInterval(carrouselUpdate, 2500);
-let play = true;
+let play = false;
 
 const progressBar = document.getElementById("progressBar");
 const progressBarContainer = document.getElementById("progressBarBG");
