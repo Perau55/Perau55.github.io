@@ -10,7 +10,9 @@ const buttonImg = document.getElementById("pauseImg");
 const carrousel = document.getElementById("carrouselImg");
 
 // **Garantir que o botão inicie com a imagem de Play**
-buttonImg.src = "PlayButton.png";
+window.onload = function () {
+    buttonImg.src = "PlayButton.png"; // Define a imagem correta ao carregar a página
+};
 
 function songButton() {
     if (!play) {
